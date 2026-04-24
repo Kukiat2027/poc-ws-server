@@ -1,0 +1,21 @@
+{
+  "name": "poc-ws-server",
+  "version": "0.1.0",
+  "description": "Minimal, production-shaped WebSocket server built on Bun.serve with rooms, pub/sub, and a test client.",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --hot run index.ts",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.3"
+  }
+}
