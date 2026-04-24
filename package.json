@@ -5,7 +5,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun build src/index.ts --target bun --outdir ./dist && bun run dist/index.js",
+    "start": "bun build index.ts --target bun --outdir ./dist && bun run dist/index.js",
     "dev": "bun --hot run index.ts",
     "typecheck": "bunx tsc --noEmit"
   },
